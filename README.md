@@ -14,6 +14,34 @@ AWS Textract is a machine learning service that goes beyond simple OCR to also i
 
 ---
 
+## 📚 Use Case: Preprocessing PDFs for LLM Training
+
+This tool is especially useful when working with large collections of PDFs such as:
+
+    Research papers
+
+    Legal documents
+
+    Business reports
+
+    Religious or historical texts
+
+Using this processor, you can:
+
+- 🧾 Extract raw text or structured blocks from PDFs
+
+- 🧠 Convert scanned documents into machine-readable JSON
+
+- 🧪 Use the output as training data or fine-tuning datasets for LLMs like GPT, LLaMA, Mistral, or Falcon
+
+Example:
+
+{
+  "Page": 1,
+  "Text": "The Bhagavad Gita is a dialogue between Lord Krishna and Arjuna...",
+  "Confidence": 98.5
+}
+
 ## 🚀 Features
 
 - ✅ Extracts text from scanned PDFs using AWS Textract  
