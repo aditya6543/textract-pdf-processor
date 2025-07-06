@@ -1,11 +1,18 @@
 # 🧠 Textract PDF Processor
 
-A Python automation tool to:
-1. 📄 Split large PDFs into 10-page chunks
-2. ☁️ Upload them to AWS S3
-3. 🤖 Use Amazon Textract to extract text from each PDF
-4. 📂 Save extracted data as JSON files
+A Python automation script to process large PDF documents with AWS Textract.
 
+This tool allows you to:
+
+- ✂️ Split large PDFs into 10-page chunks  
+- ☁️ Upload them to AWS S3  
+- 🤖 Run Textract to extract text content  
+- 📁 Save the extracted results as clean, structured JSON files  
+
+Ideal for:
+- Training LLMs from PDFs  
+- Extracting structured data from invoices, contracts, reports  
+- Automating document pipelines for cloud-based applications
 ---
 
 ## 🚀 Features
